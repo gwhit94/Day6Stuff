@@ -57,3 +57,15 @@ for (let i = 100; i > userNum; i--){
     console.log(i);
 }
 alert(userMessage);
+
+var array1 = [-1,-2,2,10,7,8];
+var array2 = [4,-2,2,7,9,5];
+var arrayCommonalityCounter = 0;
+
+for (let i = 0; i < array1.length; i++){
+    for (let j = 0; j < array2.length; j++){
+        if (array1[i] == array2[j]){
+            arrayCommonalityCounter++;
+        }
+    }
+}
