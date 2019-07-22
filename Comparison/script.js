@@ -19,6 +19,11 @@ if (username == "Graham"){
 } else {
     alert(`Hi ${username}`);
 }
+
+// Ternary operator
+// username == "Graham" ? alert("That is a great name.") : alert("Hi " + username);
+// condition ? if true : if false
+
 var reversed = username.split("");
 console.log(reversed.reverse().join(""));
 
