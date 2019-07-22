@@ -9,7 +9,23 @@
 </head>
 <body>
     <aside></aside>
-    <main></main>
+    <main>
+        <div>
+            <input id="fizzButton" type="button" value="fizzbuzz" onclick="fizzbuzz()">
+            <br>
+            <br>
+            <form>
+            <input id="numInput" name="numInput" placeholder="Input 4 or more characters">
+            <input id="numButton" type="button" value="Submit" onclick="characterLog()">
+            <br>
+            <br>
+            Can you guess the number between 0 and 10 my computer is thinking of?
+            <br>
+            <input id="guessNumber" name="guessNumber" placeholder="Enter a number between 0 and 10">
+            <input id="guessButton" type="button" value="Guess" onclick="guessCheck()">
+            <a id="guessResult"></a>
+        </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
