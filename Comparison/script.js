@@ -20,10 +20,9 @@ if (username == "Graham"){
     alert(`Hi ${username}`);
 }
 var reversed = username.split("");
-console.log(reversed.reverse());
+console.log(reversed.reverse().join(""));
 
 var userNum = prompt("Please enter a number between 1 and 100", "Number");
-console.log(userNum);
 var userMessage = `${userNum} is`;
 
 if (userNum % 2 == 0){
@@ -52,3 +51,4 @@ for (let i = 0; i < userNum; i++){
 for (let i = 100; i > userNum; i--){
     console.log(i);
 }
+alert(userMessage);
