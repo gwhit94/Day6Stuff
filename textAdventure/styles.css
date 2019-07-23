@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: grid;
+    grid-template-columns: 5vw 90vw 5vw;
+    grid-template-rows: 12vh 76vh 12vh;
+}
+main {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}

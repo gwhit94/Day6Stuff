@@ -58,6 +58,7 @@ for (let i = 100; i > userNum; i--){
 }
 alert(userMessage);
 
+
 var array1 = [-1,-2,2,10,7,8];
 var array2 = [4,-2,2,7,9,5];
 var arrayCommonalityCounter = 0;
